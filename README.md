@@ -6,3 +6,13 @@ At the moment, its a quick shitty algo that just generically allows you to plug 
 
 Goal going forward will be to add a pdf output functionality. 
 
+
+============== To Use ===============
+
+-pull down repo
+-install
+-make your necessary changes
+-change arguments
+-run quokka 
+-copy output out of console. 
+
