@@ -21,7 +21,7 @@ Software Engineer
 return result; 
 }
 
-const company = 'Whippy'; 
-const article = `Though the articles are temporary as they quote Fredrick Douglas, I understand what the companies approach to web development is`; 
-const position = 'Frontend'
+const company = 'Ensomata'; 
+const article = `Solution Recipe 5: Using Klaviyo's APIs to Automate Daily Emails`; 
+const position = 'Senior Backend Engineer'
 console.log(coverLetter(position, company, article))
