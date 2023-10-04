@@ -1,4 +1,4 @@
-// const coverLetter = (position, company, article, connection) => {
+// const coverLetter = (position, company, blog, connection) => {
 //     if(!position || !company ) return `Check Yo Shit!`; 
 //     let  plural = company[company.length-1] === 's' ? `'` : `'s`
 //     let result = `
@@ -9,7 +9,7 @@
 
 // My most recent role as a software engineer featured a tech stack that focused on React, Redux, NodeJS and postgreSQL. And my current platform, Gimme, utilized React Hooks, NodeJS, Typescript, and MongoDB, in an application/chrome extension that executed extensive API calls via parsing through very large datasets.
 
-// From reading the ${company} Engineering Blog (particularly, '${article}'), it's extremely clear that ${company}${plural} technical foundation is rooted in not only engineering best practices, but in true engineering excellence and innovation (${connection}!) - and this is the core reason why I'd be so excited to bring my own abilities to the team there. 
+// From reading the ${company} Engineering Blog (particularly, '${blog}'), it's extremely clear that ${company}${plural} technical foundation is rooted in not only engineering best practices, but in true engineering excellence and innovation (Congratulations on your recent ${connection}!) - and this is the core reason why I'd be so excited to bring my own abilities to the team there. 
 
 // I hope we have a chance to connect. If there's a time and day that works well for you, I'll absolutely make it work on my end.
 
@@ -21,19 +21,19 @@
 // return result; 
 // }
 
-// const company = 'Voxel'; 
-// const position = 'Senior Software Engineer - Full Stack' 
-// const article = `Rolling Out AI in the Workplace`;  
-// const connection = `Congratulations on your recent Introduction "Near Miss" Detection: Stop Collisions Before They Happen`;
+// const company = 'Anduril'; 
+// const position = 'Mission Software Engineer (Front-End), Command and Control' 
+// const blog = `Database Migration Service — Case Study #2`;  
+// const connection = `Congratulations on your recent Announcement of Filing of Registration Statement for Proposed Initial Public Offering`;
 
-// console.log(coverLetter(position, company, article, connection))
+// console.log(coverLetter(position, company, blog, connection))
 
 
 /*
-* ============= BLOG // NO NEWS/PRESS // NEW COMPANY =============
+* ============= NO BLOG // NEWS/PRESS // NEW COMPANY =============
 */
 
-// const coverLetterNoBlog = (position, company, article) => {
+// const coverLetterNoBlog = (position, company, connection) => {
 //     if(!position || !company ) return `Y'all, Check Yo Shit!`; 
 
 //     let  plural = company[company.length-1] === 's' ? `'` : `'s`
@@ -45,7 +45,7 @@
 
 // My most recent role as a software engineer featured a tech stack that focused on React, Redux, NodeJS and postgreSQL. And our platform, Gimme, utilized React Hooks, NodeJS, Typescript, TDD, and MongoDB, in an application/chrome extension that executed extensive API calls via parsing through very large datasets.
 
-// From reading the ${company} Engineering Blog (particularly, '${article}'), it's extremely clear that ${company}${plural} technical foundation is rooted in not only engineering best practices, but in true engineering excellence and innovation - and this is the core reason why I'd be so excited to bring my own abilities to the team there. 
+// From reading the ${company} website and mission, it's extremely clear that ${company}${plural} technical foundation is rooted in not only engineering best practices, but in true engineering excellence and innovation (Congratulations on your recent ${connection}!) - and this is the core reason why I'd be so excited to bring my own abilities to the team there. 
  
 // I hope we have a chance to connect. If there's a time and day that works well for you, I'll absolutely make it work on my end.
 
@@ -57,9 +57,9 @@
 // return result; 
 // }
 
-// const company = 'Tesla'; 
-// const article = `Tesla says it will build new "1st of its kind" data centers`; 
-// const position = 'Software Engineer';
+// const company = 'Tome'; 
+// const connection = `feature in Forbes 'Buzzy Storytelling Startup Tome Raises $43 Million From A Who’s Who In AI'`; 
+// const position = `Fullstack Software Engineer`;
 // console.log(coverLetterNoBlog(position, company))
 
 /*
@@ -91,7 +91,6 @@ Software Engineer
 return result; 
 }
 
-const company = 'Smashing'; 
-const position = 'Frontend Software Engineer' 
+const company = `Pryon`; 
+const position = `Frontend Developer (React)`;
 console.log(coverLetterNoBlog(position, company))
-
