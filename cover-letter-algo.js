@@ -21,10 +21,10 @@
 // return result; 
 // }
 
-// const company = 'Anduril'; 
-// const position = 'Mission Software Engineer (Front-End), Command and Control' 
-// const blog = `Database Migration Service — Case Study #2`;  
-// const connection = `Congratulations on your recent Announcement of Filing of Registration Statement for Proposed Initial Public Offering`;
+// const company = 'ServiceNow'; 
+// const position = 'Software Engineer - Front End' 
+// const blog = `AI will empower app developers—not replace them`;  
+// const connection = `Congratulations on your recent expanded alliance to integrate Now Assist generative AI capabilities with next-generation managed services!`;
 
 // console.log(coverLetter(position, company, blog, connection))
 
@@ -63,8 +63,8 @@
 // console.log(coverLetterNoBlog(position, company))
 
 /*
-* ============= NO WEBSITE BLOG // NEW COMPANY =============
-*/
+// * ============= NO WEBSITE BLOG // NEW COMPANY =============
+// */
 
 const coverLetterNoBlog = (position, company) => {
     if(!position || !company ) return `Y'all, Check Yo Shit!`; 
@@ -91,6 +91,6 @@ Software Engineer
 return result; 
 }
 
-const company = `Pryon`; 
-const position = `Frontend Developer (React)`;
+const company = 'Gordian Software'; 
+const position = 'Software Engineer' 
 console.log(coverLetterNoBlog(position, company))
